@@ -5,6 +5,10 @@ package main;
  */
 public class Calculator {
 
+    public static void main(String[] args) {
+    	System.out.println("Hello World");
+    }
+
         public int add(int... number) {
                 int total = 0;
                 for (int i : number) {
